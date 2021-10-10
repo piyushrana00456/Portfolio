@@ -3,12 +3,14 @@ import styled from "styled-components";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-// import Particle from "../Components/Particle";
+import Particles from "react-particles-js";
 import Typewriter from "../Components/Type";
 function HomePage() {
   return (
     <HomePageStyled>
-      <div className="particle-con">{/* <Particle /> */}</div>
+      <div className="particle-con">
+        <Particles />
+      </div>
       <div className="typography">
         <h1>
           Hi, I'm <span>Piyush Rana</span>

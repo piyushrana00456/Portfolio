@@ -134,6 +134,7 @@ const MenuItemStyled = styled.div`
           height: calc(100% - 32%);
           width: calc(100% - 4%);
           background-color: white;
+
           opacity: 0.9;
           transform-origin: left;
 

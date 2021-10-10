@@ -10,9 +10,8 @@ function Tools() {
       <Title title={"Tools"} span={"tools"} />
       <InnerLayout>
         <div className="skills">
-          <ToolBar img={"./html.png"} />
-          <ToolBar img={"./css.png"} />
-          <ToolBar img={"./js.png"} />
+          <ToolBar img={"./vs.png"} />
+          <ToolBar img={"./postman.png"} />
         </div>
       </InnerLayout>
     </SkillsStyled>

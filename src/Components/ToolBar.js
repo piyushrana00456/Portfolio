@@ -12,7 +12,7 @@ function ToolBar({ title, img }) {
 const ProgressBarStyled = styled.div`
   width: 100%;
   img {
-    width: 50%;
+    width: 40%;
   }
 `;
 

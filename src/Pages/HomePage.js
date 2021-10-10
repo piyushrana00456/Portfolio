@@ -3,24 +3,24 @@ import styled from "styled-components";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
+import Particle from "../Components/Particle";
 import Typewriter from "../Components/Type";
 function HomePage() {
   return (
     <HomePageStyled>
       <div className="particle-con">
-        <Particles />
+        {/* <Particles /> */}
+        <Particle />
       </div>
       <div className="typography">
         <h1>
           Hi, I'm <span>Piyush Rana</span>
         </h1>
-
         <h2 className="typewriter">
           {" "}
           <Typewriter />
         </h2>
-
         <div className="icons">
           <a
             href="https://github.com/piyushrana00456"
@@ -58,10 +58,6 @@ const HomePageStyled = styled.header`
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
-
-    h2 {
-      font-size: 50px !important;
-    }
     .icons {
       display: flex;
       justify-content: center;

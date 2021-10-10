@@ -18,7 +18,7 @@ function ImageSection() {
           websites.Looking forward to an exciting opportunity to work in a
           challenging role as a full-stack developer.
         </p>
-        <PrimaryButton href="./PIYUSH_RANA" title={"Download Cv"} />
+        <PrimaryButton title={"Download Cv"} />
       </div>
     </ImageSectionStyled>
   );

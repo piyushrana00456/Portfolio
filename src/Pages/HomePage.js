@@ -6,6 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 // import Particles from "react-particles-js";
 import Particle from "../Components/Particle";
 import Typewriter from "../Components/Type";
+// import { MyComponent } from "../Components/TypeWriter";
 function HomePage() {
   return (
     <HomePageStyled>
@@ -20,6 +21,7 @@ function HomePage() {
         <h2 className="typewriter">
           {" "}
           <Typewriter />
+          {/* <MyComponent /> */}
         </h2>
         <div className="icons">
           <a

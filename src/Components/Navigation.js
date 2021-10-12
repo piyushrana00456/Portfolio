@@ -27,7 +27,7 @@ function Navigation() {
         </li>
         <li className="nav-item">
           <NavLink to="/projects" activeClassName="active-class" exact>
-            Porjects
+            Projects
           </NavLink>
         </li>
         {/* <li className="nav-item">

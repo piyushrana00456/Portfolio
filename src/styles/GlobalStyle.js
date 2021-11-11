@@ -70,17 +70,17 @@ body{
 }
 
 body::-webkit-scrollbar{
-    width: 9px;
-    background-color: #383838;
+    width: 12px;
+    /* background-color: #383838; */
 }
 body::-webkit-scrollbar-thumb{
-    border-radius: 10px;
-    background-color: #6b6b6b;
+    border-radius: 50px;
+    background: linear-gradient(transparent,var(--background-light-color-2));
 }
-body::-webkit-scrollbar-track{
+/* body::-webkit-scrollbar-track{
     border-radius: 10px;
     background-color: #383838;
-}
+} */
 
 textarea{
     max-width: 100%;
@@ -125,13 +125,15 @@ h6{
 //Floting Toggler
 .light-dark-mode{
     position: fixed;
-    right: 0;
+    right: 0.5%;
     top: 50%;
+    border-radius: 4px;
     background-color: var(--background-light-color-2);
-    width: 6.5rem;
-    height: 2.5rem;
+    width: 2.5rem;
+    height: 6.5rem;
     z-index: 15;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     svg{

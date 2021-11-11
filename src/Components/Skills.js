@@ -10,16 +10,16 @@ function Skills() {
       <Title title={"My Skills"} span={"my skills"} />
       <InnerLayout>
         <div className="skills">
-          <ProgressBar img={"./html.png"} />
-          <ProgressBar img={"./css.png"} />
-          <ProgressBar img={"./js.png"} />
+          <ProgressBar img={"./html.png"} title={"HTML"} />
+          <ProgressBar img={"./css.png"} title={"CSS"} />
+          <ProgressBar img={"./js.png"} title={"Javascript"} />
 
-          <ProgressBar img={"./react.png"} />
+          <ProgressBar img={"./react.png"} title={"React"} />
 
-          <ProgressBar img={"./redux.png"} />
+          <ProgressBar img={"./redux.png"} title={"Redux"} />
 
-          <ProgressBar img={"./nodeJs.png"} />
-          <ProgressBar img={"./mongo.png"} />
+          <ProgressBar img={"./nodeJs.png"} title={"Node.Js"} />
+          <ProgressBar img={"./mongo.png"} title={"MongoDB"} />
         </div>
       </InnerLayout>
     </SkillsStyled>
@@ -32,8 +32,9 @@ const SkillsStyled = styled.section`
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 2rem;
     grid-column-gap: 2rem;
+
     @media screen and (max-width: 700px) {
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 `;

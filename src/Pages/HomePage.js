@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 // import Particles from "react-particles-js";
@@ -36,12 +35,12 @@ function HomePage() {
           >
             <LinkedInIcon />
           </a>
-          <a
+          {/* <a
             href="https://www.facebook.com/arnav.roy.984"
             className="icon i-facebook"
           >
             <FacebookIcon />
-          </a>
+          </a> */}
         </div>
       </div>
     </HomePageStyled>
@@ -94,12 +93,6 @@ const HomePageStyled = styled.header`
         &:hover {
           border: 2px solid #5f4687;
           color: #5f4687;
-        }
-      }
-      .i-facebook {
-        &:hover {
-          border: 2px solid #4867aa;
-          color: #4867aa;
         }
       }
     }

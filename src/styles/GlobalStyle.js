@@ -33,8 +33,8 @@ const GlobalStyle = createGlobalStyle`
     /* --primary-color-light: #057FFF; */
     --primary-color-light: #150050;
     --secondary-color: #6c757d;
-    /* --background-dark-color: #10121A; */
-    --background-dark-color: #000000;
+    --background-dark-color: #10121A;
+    /* --background-dark-color: #000000; */
 
     --background-dark-grey: #191D2B;
     --border-color: #610094;

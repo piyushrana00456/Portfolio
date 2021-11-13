@@ -34,23 +34,18 @@ function Resume() {
             year={"2021 - Present"}
             title={"Full Stack Developer"}
             subTitle={"Masai School, Banglore"}
-            text={"Learning Full Stack Developement and Communication skills "}
+            text={`Learning Full Stack Developement and 
+             Communication skills `}
           />
           <ResumeItem
             year={"2015 - 2019"}
             title={"Mechanical Engineering"}
             subTitle={"KCCITM, Greater Noida"}
-            // text={
-            //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
-            // }
           />
           <ResumeItem
             year={"2012 - 2015"}
             title={"Intermediate"}
             subTitle={"ChandraSheal Vidyapeeth"}
-            // text={
-            //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
-            // }
           />
         </div>
       </InnerLayout>
